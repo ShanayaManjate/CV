@@ -7,6 +7,7 @@
     align-items: baseline;
     padding-left: 250px;
     
+    
 }
 
 #links{
@@ -24,12 +25,12 @@
 
 #avatar{
     display: flex;
-  -  justify-content: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    padding-left: 600px;
-}
+   padding-left: 600px;
+   }
 
 #texto{
     color: violet;
@@ -84,7 +85,12 @@
 } 
     #links1{
         display: flex;
-        flex-direction: column;
+        
+
+    }
+     #links2{
+        display: flex;
+    
 
     }
 
