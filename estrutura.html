@@ -10,120 +10,149 @@
     <link rel="stylesheet" href="estrutura.css">
 </head>
 <body>
-    <header>
-    <!-----------Barra de navegacao-->
-    <nav>
-        <a href="index.html">
-            <img src="./logotipo.png" width="100px" height="100px"></img>
-        </a>
-        
-            <a href="index.html">Home</a>
+    <header class="headerContainer">
+     <nav>
+        <img src="logotipo.png" width="80px" height="80px">
+        <span>
+            <a href="home.html">Home</a>
             <a href="Projects.html">Projects</a>
             <a href="Experience">Experience</a>
-            <a href="Contact">Contact</a>
-        
-    </nav>
-  </header>
-  <main>
-    <div>
-         <img src="./logotipo.png" alt=""></img>
-    </div>
-    <div>
-        <h2> I do code and <br> make content about it!</h2>
-    </div>
-    <div>
-        <p> i am a seasoned fullstack engineer</p>
-    </div>
-    <div>
-        <button>Get in Touch</button>
-        <button>Download CV</button>
-    </div>
-    <div>
-        <p>Experience with</p>
-    </div>
-    <div>
-
-        <span><i class="fa-brands fa-html5" style="font-size: 100 px;"></i></span>
-        
-    </div>
-
-  </main>
-  <section>
-    <div>
-        <div><h4>Projects</h4></div>
-
-                <!--Imagem do html-->
-                <div>
-                    <img src="html.png" width="100px" height="100px"></div>
-
-                <!--detalhes do projecto-->
-
-                <div>
-                    <div>
-                        <div><a href="">Click here to visit </a></div>
-                           
-                        
-                    </div>
-                     <h3>HTML tutorial</h3>
-
-                    <i class="fa-solid fa-arrow-right"></i>
-                     <img src="css.png" width="100px" height="100px"></div>
-
-                <!--detalhes do projecto-->
-
-                <div>
-                    <div>
-                        <div><a href="">Click here to visit </a></div>
-                           
-                        
-                    </div>
-                     <h3>css tutorial</h3>
-
-                    <i class="fa-solid fa-arrow-right"></i>
-
-                </div>
-
-
-            </div>
-            <div><h4>Experience</h4></div>
-            <div>
-                <i class="fa-brands fa-google"></i>
-                <h5>Lead Software Enginner at google</h5>
-                <p>As a senior Software at googlr, i played a pivotal role in developing innovate solutions for 
-                    google's <br> core search algorithms.
+            <a href="Contact"> Contact</a>
+        </span>
+     </nav>
+    </header>
+    <main>
+        <div class="mainpt1">
+            <div id="avatar"><img src="avatar.jpg" width="100 px" height="100px"></div>
+            <div id="sobre"><p> I do code and make content <br><span>about it!</span></p></div>
+            <div id=" resumo">
+                <p> i am a seasoned full-stack software with over
+                    <br> 8 years of professional Experience, specializing in backend development.
+                    <br> My expertise lies in crafting robust and scalable SaaS-based
+                    <br> architectures on the Amazon AWS platform
                 </p>
             </div>
-            <div>
-                <i class="fa-brands fa-apple"></i>
-                <h5> Junior Software Engineer at Apple</h5>
-                <p>During my tenure in apple, i held the role of software architecr, where i played a key role 
-                    in shaping the <br> architecture
-
-                </p>
+            <div class="buttons">
+                <button id="GIT">Get In Touch</button>
+                <button id="DC"> Download CV</button>
             </div>
-  </section>
+        <div class="Experience">
+                <h4>Experience with</h4>
+        </div>
+        <div class="icones">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-react"></i>
+        </div>
+            </div>
+        </div>
+    </main>
 
-<footer>
-    <h5>Contact</h5>
-    <p> seasoned fullstack software engineer with over 8 years of hands-on experience in designing <br>
-    and implementing robust, scalabe and innovate web solutions. Adept at leveraging a <br>
-     comprehensive skill set </p>
-       <div>
-               <i class="fa-solid fa-envelope"></i>
-               <h5>shanayamanjate@gmail.com</h5>
+    <section>
+
+        <div id="projects">
+            <h3>Projects</h3>
+        </div>
+         <div class="cards">
+                    <!--- html card--->
+                        <div class="card-html">
+                            <img src="html.png" width="100px" height="100px">
+                       
+                        <div id="links1" >
+                            <div>
+                                <a>CLICK HERE TO VISIT</a>
+                                <h2>HTML TUTORIAL</h2>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                       </div>
+                         <!--- css card--->
+                        <div class="card-css">
+                            <img src="css.png" width="100px" height="100px">
+                       
+                         <div id="links2" >
+                            <div>
+                                <a>CLICK HERE TO VISIT</a>
+                                <h2>CSS TUTORIAL</h2>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </div>
+                        </div>
+                       </div>
+         </div>            
+
+                    
+                                      
+    </section>
+
+    <section>
+        <div class="Experiences">
+            <h3>Experience</h3>
+        </div>
+        <div class="all">
             
-       </div>
-       <div>
-                <nav>
-                    
-                    <span><i class="fa-brands fa-instagram"></i></span>
-                    <span><i class="fa-brands fa-whatsapp"></i></span>
-                    <span><i class="fa-brands fa-linkedin"></i></span>
-                    
-                </nav>
+               <div id="google">
+                 <i class="fa-brands fa-google"></i>
+                <p> Lead Software Engineer at google</p>
+                <p>Nov 2019 - Present</p>
+               </div>
+            
+            <div id="googledesc">
+                <p> AS a senior...</p>
+            </div>
+        </div>
+        <div>
+           <div id="apple">
+               <i class="fa-brands fa-apple"></i>
+            <p>Junior software Engineer at Apple</p>
+            <p>Jan 2016 - Dec 2017</p>
+           </div>
+            <div id="appledesc">
+                <p>During my tenure at apple...</p>
+            </div>
+        </div>
+          <div id="meta">
+            <i class="fa-brands fa-meta"></i>
+            <p>Software Engineer at meta</p>
+            <p>Jan 2017 - Oct 2019/p>
+           </div>
+            <div id="metadesc">
+                <p>At meta i served as a Software, focusing on the desing and implementation</p>
             </div>
 
-</footer>
-    
+        </div>
+    </section>
+     <footer>
+        <div>
+            
+          <div class="Contact">
+              <h3>Contact</h3>
+          </div>
+          <div id="ContactDesc">
+              <p>Seasoned Full Stack software Engineer with over 8 years hands on Experience in designing
+                <br> and implementing robust scalable, and innovate web solutions. Adept at leveraging a 
+                <br>comprehensive skill set encompassing front-end and back end technologies
+            </p>
+          </div>
+
+           <div id="email">
+               <i class="fa-regular fa-envelope"></i>
+                <p>shanayamanjate14@gmail.com</p>
+
+           </div>
+
+               <div class="iconeSocial">
+                 <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+               </div>
+          
+            
+        </div>
+     </footer>
 </body>
 </html>
