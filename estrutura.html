@@ -11,9 +11,9 @@
 </head>
 <body>
     <header class="headerContainer">
-     <nav>
-        <img src="logotipo.png" width="80px" height="80px">
-        <span>
+     <nav id="nav">
+        <img id="logotipo" src="logotipo.png">
+        <span id="links">
             <a href="home.html">Home</a>
             <a href="Projects.html">Projects</a>
             <a href="Experience">Experience</a>
@@ -23,9 +23,9 @@
     </header>
     <main>
         <div class="mainpt1">
-            <div id="avatar"><img src="avatar.jpg" width="100 px" height="100px"></div>
-            <div id="sobre"><p> I do code and make content <br><span>about it!</span></p></div>
-            <div id=" resumo">
+            <div id="avatar"><img src="avatar.jpg"></div>
+            <div id="sobre"><p> I do code and make content <br><span id="texto">about it!</span></p></div>
+            <div id="resumo">
                 <p> i am a seasoned full-stack software with over
                     <br> 8 years of professional Experience, specializing in backend development.
                     <br> My expertise lies in crafting robust and scalable SaaS-based
@@ -90,49 +90,58 @@
     </section>
 
     <section>
-        <div class="Experiences">
-            <h3>Experience</h3>
+        <div>
+            <h3 id="tituloExpe">Experience</h3>
         </div>
-        <div class="all">
+        
+        <div class="empresa">
             
-               <div id="google">
+               <div class="empresaIcons">
                  <i class="fa-brands fa-google"></i>
                 <p> Lead Software Engineer at google</p>
                 <p>Nov 2019 - Present</p>
                </div>
             
-            <div id="googledesc">
-                <p> AS a senior...</p>
-            </div>
+             <div>
+                <p> As a senior Software Engineer at Google, i played a pivotal role in developing innovate solutions for Google's <br>
+                core search algorithms. Collaborating with a dynamic team of engineers, i contribute to the enhancement of <br>
+                 search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
+             </div>
         </div>
-        <div>
-           <div id="apple">
+        
+         <div class="empresa">
+            <div class="empresaIcons">
                <i class="fa-brands fa-apple"></i>
-            <p>Junior software Engineer at Apple</p>
-            <p>Jan 2016 - Dec 2017</p>
+                <p>Junior software Engineer at Apple</p>
+                <p>Jan 2016 - Dec 2017</p>
            </div>
-            <div id="appledesc">
-                <p>During my tenure at apple...</p>
+            <div>
+                <p>During my tenure at apple, i held the role of Software Architect, where i played a key role in shaping <br>
+                the architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, I <br>
+              provided technical leadership to a cross-functional team.</p>
             </div>
         </div>
-          <div id="meta">
-            <i class="fa-brands fa-meta"></i>
-            <p>Software Engineer at meta</p>
-            <p>Jan 2017 - Oct 2019/p>
+          <div class="empresa">
+            <div class="empresaIcons">
+                <i class="fa-brands fa-meta"></i>
+                 <p>Software Engineer at meta</p>
+             <p>Jan 2017 - Oct 2019</p>
            </div>
-            <div id="metadesc">
-                <p>At meta i served as a Software, focusing on the desing and implementation</p>
+            <div >
+                <p>At meta i served as a Software, focusing on the desing and implementation of backend systems for <br>
+                the social media giant's dynamic platform. Working on projects that involved large-scale data processing and <br>
+                 user engagement features, i leveraged my expertise to ensure seamless functionally and scalability.</p>
             </div>
 
         </div>
     </section>
-     <footer>
+     <footer id="rodape">
         <div>
             
-          <div class="Contact">
+          <div>
               <h3>Contact</h3>
           </div>
-          <div id="ContactDesc">
+          <div>
               <p>Seasoned Full Stack software Engineer with over 8 years hands on Experience in designing
                 <br> and implementing robust scalable, and innovate web solutions. Adept at leveraging a 
                 <br>comprehensive skill set encompassing front-end and back end technologies
@@ -140,12 +149,12 @@
           </div>
 
            <div id="email">
-               <i class="fa-regular fa-envelope"></i>
-                <p>shanayamanjate14@gmail.com</p>
+               <i class="fa-regular fa-envelope"></i> 
+               <p>shanayamanjate14@gmail.com</p>
 
            </div>
 
-               <div class="iconeSocial">
+               <div>
                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-youtube"></i></a>
